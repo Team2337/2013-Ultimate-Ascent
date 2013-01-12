@@ -1,4 +1,5 @@
 2013UltimateAscent
 ==================
 
-The EngiNERDs' robot code for the 2013 FIRST Robotics Competition, and the game, Ultimate Ascent.
+This branch hosts the autonomous code, which primarily (for now) consists of the 2012 FTP Autonomous, most of the game-specific code gutted out, and the VI's named to meet naming standards.
+
