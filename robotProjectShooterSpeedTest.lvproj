@@ -1,9 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
-	<Property Name="varPersistentID:{3703F738-E3E3-4409-9BA5-F8EBF850C60D}" Type="Ref">/RT CompactRIO Target/lib2.lvlib/Direct Imput</Property>
-	<Property Name="varPersistentID:{576EC6ED-A4C9-43AD-A625-7A9C3ACF1098}" Type="Ref">/RT CompactRIO Target/lib1.lvlib/Requested RPM</Property>
-	<Property Name="varPersistentID:{77E3800A-A083-44C0-9D1C-D46369BB9A36}" Type="Ref">/RT CompactRIO Target/Untitled Library 2.lvlib/BangBang</Property>
-	<Property Name="varPersistentID:{C2B06E47-E6ED-467C-BDF8-E90A4B3EE8BC}" Type="Ref">/RT CompactRIO Target/Untitled Library 1.lvlib/PID</Property>
+	<Property Name="varPersistentID:{3703F738-E3E3-4409-9BA5-F8EBF850C60D}" Type="Ref">/RT CompactRIO Target/libraryDirectImput.lvlib/Direct Imput</Property>
+	<Property Name="varPersistentID:{576EC6ED-A4C9-43AD-A625-7A9C3ACF1098}" Type="Ref">/RT CompactRIO Target/libraryRequestedRPM.lvlib/Requested RPM</Property>
+	<Property Name="varPersistentID:{77E3800A-A083-44C0-9D1C-D46369BB9A36}" Type="Ref">/RT CompactRIO Target/libraryBangBang.lvlib/BangBang</Property>
+	<Property Name="varPersistentID:{C2B06E47-E6ED-467C-BDF8-E90A4B3EE8BC}" Type="Ref">/RT CompactRIO Target/libraryPID.lvlib/PID</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -48,7 +48,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -134,12 +133,12 @@ KeepAliveTimeout 60
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../../../Programs/Untitled Library 1.lvlib"/>
-		<Item Name="Untitled Library 2.lvlib" Type="Library" URL="../../../Programs/Untitled Library 2.lvlib"/>
+		<Item Name="libraryPID.lvlib" Type="Library" URL="../../../Programs/libraryPID.lvlib"/>
+		<Item Name="libraryBangBang.lvlib" Type="Library" URL="../../../Programs/libraryBangBang.lvlib"/>
 		<Item Name="shooterPID.vi" Type="VI" URL="../../../Programs/shooterPID.vi"/>
 		<Item Name="shooterBangBang.vi" Type="VI" URL="../../../Programs/shooterBangBang.vi"/>
-		<Item Name="lib1.lvlib" Type="Library" URL="../../../Programs/lib1.lvlib"/>
-		<Item Name="lib2.lvlib" Type="Library" URL="../../../Programs/lib2.lvlib"/>
+		<Item Name="libraryRequestedRPM.lvlib" Type="Library" URL="../../../Programs/libraryRequestedRPM.lvlib"/>
+		<Item Name="libraryDirectImput.lvlib" Type="Library" URL="../../../Programs/libraryDirectImput.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -271,7 +270,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_MotorControlRefNum Compare.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Compare.vi"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
 				<Item Name="WPI_JoystickGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetSetRefNum.vi"/>
-				<Item Name="WPI_CameraOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraOpen.vi"/>
 				<Item Name="WPI_CameraRegistryActions.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRegistryActions.ctl"/>
 				<Item Name="WPI_Camera Registry.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_Camera Registry.vi"/>
 				<Item Name="WPI_CameraSettings Control.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSettings Control.ctl"/>
@@ -313,7 +311,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CameraSet Numeric Appearance Property.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Numeric Appearance Property.vi"/>
 				<Item Name="WPI_CameraSet Brightness.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Brightness.vi"/>
 				<Item Name="WPI_CameraSet Numeric Sensor Property.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraSet Numeric Sensor Property.vi"/>
-				<Item Name="WPI_CameraRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Set.vi"/>
 				<Item Name="WPI_CameraGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGetSetRefNum.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Get.vi"/>
 				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
@@ -695,6 +692,7 @@ KeepAliveTimeout 60
 				<Item Name="NetComm_UpdateLCD.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UpdateLCD.vi"/>
 				<Item Name="WPI_DriverStationLCDSetLCDLineText.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDSetLCDLineText.vi"/>
 				<Item Name="WPI_DriverStationLCDWrite User Message.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDWrite User Message.vi"/>
+				<Item Name="WPI_CounterStart.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterStart.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -702,7 +700,7 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="poops.vi" Type="VI" URL="../poops.vi"/>
+			<Item Name="swagProtector.vi" Type="VI" URL="../swagProtector.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
