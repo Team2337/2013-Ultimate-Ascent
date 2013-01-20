@@ -1,12 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
-	<Property Name="varPersistentID:{175E3050-28BA-44F9-8765-D4678622B548}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
 	<Property Name="varPersistentID:{5CD8567E-D08D-4C8C-AABC-4FF1D92F8A05}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveRight</Property>
-	<Property Name="varPersistentID:{5D9FACF9-D36C-4BBE-9407-4397270B4512}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
 	<Property Name="varPersistentID:{A1894E97-4956-48EC-99BA-F5FE94093963}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
 	<Property Name="varPersistentID:{A7AAC8C2-8351-4D78-ACED-6C2691570CFF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shifter</Property>
 	<Property Name="varPersistentID:{AB5690DF-0DC3-4718-A9A0-E7ED28809458}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterRPM</Property>
-	<Property Name="varPersistentID:{B9DFCA08-C0FF-42D3-8F59-ABDC741EDDBE}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBangBang</Property>
 	<Property Name="varPersistentID:{BE398721-A7D0-4C03-9F47-43EE27D94421}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoNumber</Property>
 	<Property Name="varPersistentID:{EBB72B29-D7EC-4A55-94A6-D585248A8C24}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -141,6 +138,8 @@ KeepAliveTimeout 60
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="internalVariables.lvlib" Type="Library" URL="../internalVariables.lvlib"/>
+		<Item Name="shooterPID.vi" Type="VI" URL="../../To Be Merged/shooterPID.vi"/>
+		<Item Name="shooterBangBang.vi" Type="VI" URL="../../To Be Merged/shooterBangBang.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -705,9 +704,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DriverStationLCDSetLCDLineText.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDSetLCDLineText.vi"/>
 				<Item Name="WPI_DriverStationLCDLCDTextCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDLCDTextCache.vi"/>
 				<Item Name="NetComm_UpdateLCD.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UpdateLCD.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="WPI_CounterOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen.vi"/>
 				<Item Name="WPI_CounterOpen UpDown Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen UpDown Mode.vi"/>
 				<Item Name="WPI_CounterOpen Gear Tooth Sensor Mode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterOpen Gear Tooth Sensor Mode.vi"/>
@@ -718,12 +714,11 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CounterRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorControlLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorControlLoop.vi"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -731,8 +726,6 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="shooterPID.vi" Type="VI" URL="../../derpy shooter pull/shooterPID.vi"/>
-			<Item Name="shooterBangBang.vi" Type="VI" URL="../../derpy shooter pull/shooterBangBang.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
