@@ -1,0 +1,10 @@
+THis first line is a quick description for User Messages
+
+#basicDrive(relative, start type, start param, end type, end param, driveSpeed, [label])
+#manualDrive(relative, start type, start param, end type, end param, leftDriveSpeed, rightDriveSpeed, [label])
+#testFunct(relative, start type, start param, end type, end param, [label])
+#setGear(relative, start type, start param, "low"/"high")
+
+#setShooterRPM(relative, start type, start param, speed, [label (not recommended)])
+#setGear(relative, start type, start param, "low"/"high")
+#visionDrive(relative, start type, start param, end type, end param, "disc"/"target", driveSpeed, [label])

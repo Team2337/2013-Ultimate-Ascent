@@ -10,11 +10,12 @@
 #testFunct(relative, label-end, shooterSpeedTimeDelay, t, 0.5, driveBeginGyroTurnDelay)
 #driveGyroTurn(relative, label-end, testFunct, driveBeginGyroTurnDelay, g, AMOUNTOFANGLETOTURN, driveTurnToCenter)
 #intakeTurnOn(relative, label-end, driveTurnToCenter, t, 10, intakeOnCenterDiscs)
+#setGear(relative, label-end, something, 1, 0, [label-end])
 
 #drive through the discs hopefully
 #driveVisionMotionProfile(relative, label-end, driveGyroTurn, e, LIMIT, driveToCenterLine)
 #driveVisionMotionProfile(relative, label-end, driveToCenterLine, e, -LIMIT, driveFromCenterLine)
 #driveGyroTurn(relative, label-end, testFunct, driveFromCenterLine, g, AMOUNTOFANGLETOTURN, driveTurnToPyramid)
 #shooterSetRPM(relative, label-end, driveTurnToPyramid, SPEEDTOSHOOTATBACKOFPYRAMID)
-#driveVisionMotionProfile(relative, label-end, driveTurnToPyramid, e, smallLIMIT, driveFacePyramid)
+#driveVisionMotionProfile(relative, label-end, driveTurnToPyramid, e, smallLIMIT, driveFacePyramid, vPROG, distance, t21, t2)
 
