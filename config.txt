@@ -1,6 +1,4 @@
-shooter_motor: 23
-compressor: 100%
-gyro_x: 0
-gyro_y: 0
-gyro_z: 0
-int: -512
+shooter_motor 0
+compressor 0
+Motor_Controler_1 0
+Motor_Controler_2 0
