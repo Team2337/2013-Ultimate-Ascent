@@ -1,11 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
 	<Property Name="varPersistentID:{5CD8567E-D08D-4C8C-AABC-4FF1D92F8A05}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveRight</Property>
+	<Property Name="varPersistentID:{9A1DF511-8671-4D27-A2F0-D1E825395AD4}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
 	<Property Name="varPersistentID:{A1894E97-4956-48EC-99BA-F5FE94093963}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
 	<Property Name="varPersistentID:{A7AAC8C2-8351-4D78-ACED-6C2691570CFF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shifter</Property>
 	<Property Name="varPersistentID:{AB5690DF-0DC3-4718-A9A0-E7ED28809458}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterRPM</Property>
 	<Property Name="varPersistentID:{BE398721-A7D0-4C03-9F47-43EE27D94421}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoNumber</Property>
+	<Property Name="varPersistentID:{E593BE20-3DBA-4392-BD9C-EEDE29EBCB5E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBangBang</Property>
 	<Property Name="varPersistentID:{EBB72B29-D7EC-4A55-94A6-D585248A8C24}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
+	<Property Name="varPersistentID:{F5F55F62-6EA4-4ECC-9AA7-AACE7B4ED32E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -121,6 +124,15 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
+			<Item Name="Accelerometer Code (Cheating)" Type="Folder">
+				<Item Name="Driver" Type="Folder">
+					<Item Name="ADXL345 SPI Axis.ctl" Type="VI" URL="../../../accelerometerStuff/Driver/ADXL345 SPI Axis.ctl"/>
+					<Item Name="ADXL345 SPI Open.vi" Type="VI" URL="../../../accelerometerStuff/Driver/ADXL345 SPI Open.vi"/>
+					<Item Name="ADXL345 SPI Range.ctl" Type="VI" URL="../../../accelerometerStuff/Driver/ADXL345 SPI Range.ctl"/>
+					<Item Name="ADXL345 SPI Read.vi" Type="VI" URL="../../../accelerometerStuff/Driver/ADXL345 SPI Read.vi"/>
+				</Item>
+				<Item Name="ADXL345 SPI Accelerometer.vi" Type="VI" URL="../../../accelerometerStuff/ADXL345 SPI Accelerometer.vi"/>
+			</Item>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="swagProtector.vi" Type="VI" URL="../swagProtector.vi"/>
 		</Item>
@@ -135,11 +147,15 @@ KeepAliveTimeout 60
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="getSPIAccelerometerData.vi" Type="VI" URL="../getSPIAccelerometerData.vi"/>
+			<Item Name="spiAccelerometerReadByte.vi" Type="VI" URL="../spiAccelerometerReadByte.vi"/>
+			<Item Name="spiAccelerometerWriteByte.vi" Type="VI" URL="../spiAccelerometerWriteByte.vi"/>
+			<Item Name="formatAccelerometer.vi" Type="VI" URL="../formatAccelerometer.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="internalVariables.lvlib" Type="Library" URL="../internalVariables.lvlib"/>
-		<Item Name="shooterPID.vi" Type="VI" URL="../../To Be Merged/shooterPID.vi"/>
-		<Item Name="shooterBangBang.vi" Type="VI" URL="../../To Be Merged/shooterBangBang.vi"/>
+		<Item Name="shooterPID.vi" Type="VI" URL="../shooterPID.vi"/>
+		<Item Name="shooterBangBang.vi" Type="VI" URL="../shooterBangBang.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -714,11 +730,39 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CounterRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorControlLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorControlLoop.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="FPGA_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIDevRef.ctl"/>
+				<Item Name="FPGA_SPIStrobeClearReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIStrobeClearReceived.vi"/>
+				<Item Name="FPGA_SPIStrobeReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIStrobeReset.vi"/>
+				<Item Name="FPGA_SPIWriteConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteConfig.vi"/>
+				<Item Name="FPGA_SPIWriteChannels.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteChannels.vi"/>
+				<Item Name="FPGA_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIOpen.vi"/>
+				<Item Name="WPI_SPIBits Per Word.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIBits Per Word.ctl"/>
+				<Item Name="WPI_SPIDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIDevRef.ctl"/>
+				<Item Name="WPI_SPIOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIOpen.vi"/>
+				<Item Name="WPI_DigitalOutputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputOpen.vi"/>
+				<Item Name="WPI_SPIConfigureAdvancedOptions.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIConfigureAdvancedOptions.vi"/>
+				<Item Name="WPI_SPIFrameMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIFrameMode.ctl"/>
+				<Item Name="FPGA_SPIReadConfig.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIReadConfig.vi"/>
+				<Item Name="WPI_SPIWrite.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIWrite.vi"/>
+				<Item Name="FPGA_SPIWriteDataToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWriteDataToLoad.vi"/>
+				<Item Name="FPGA_SPIStrobeLoad.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIStrobeLoad.vi"/>
+				<Item Name="WPI_SPIRead.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRead.vi"/>
+				<Item Name="FPGA_SPIStrobeReadReceivedData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIStrobeReadReceivedData.vi"/>
+				<Item Name="FPGA_SPIReadReceivedData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIReadReceivedData.vi"/>
+				<Item Name="FPGA_SPIReadReceivedElements.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIReadReceivedElements.vi"/>
+				<Item Name="FPGA_SPIWaitForReceiveNotEmpty.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIWaitForReceiveNotEmpty.vi"/>
+				<Item Name="WPI_SPIConfigureBitsPerWord.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIConfigureBitsPerWord.vi"/>
+				<Item Name="WPI_SPIClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIClose.vi"/>
+				<Item Name="FPGA_SPIReadChannels.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/SPI/FPGA_SPIReadChannels.vi"/>
+				<Item Name="FPGA_MapModuleLineToDIOChannelEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/DIO/FPGA_MapModuleLineToDIOChannelEnum.vi"/>
+				<Item Name="WPI_DigitalOutputClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalOutput/WPI_DigitalOutputClose.vi"/>
+				<Item Name="WPI_DriverStationStop Communication.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationStop Communication.vi"/>
+				<Item Name="WPI_SPIRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRefNum Registry Set.vi"/>
+				<Item Name="WPI_SPIGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIGetSetRefNum.vi"/>
+				<Item Name="WPI_SPIRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SPI/WPI_SPIRefNum Registry Get.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
