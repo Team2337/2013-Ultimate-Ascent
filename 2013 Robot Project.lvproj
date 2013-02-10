@@ -4,8 +4,11 @@
 	<Property Name="varPersistentID:{A1894E97-4956-48EC-99BA-F5FE94093963}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
 	<Property Name="varPersistentID:{A7AAC8C2-8351-4D78-ACED-6C2691570CFF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shifter</Property>
 	<Property Name="varPersistentID:{AB5690DF-0DC3-4718-A9A0-E7ED28809458}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterRPM</Property>
+	<Property Name="varPersistentID:{B5335968-BC58-42CC-84CA-4A59ECD57463}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBangBang</Property>
 	<Property Name="varPersistentID:{BE398721-A7D0-4C03-9F47-43EE27D94421}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoNumber</Property>
+	<Property Name="varPersistentID:{EB052234-22FA-4B28-B13D-FDED85410D28}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
 	<Property Name="varPersistentID:{EBB72B29-D7EC-4A55-94A6-D585248A8C24}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
+	<Property Name="varPersistentID:{F6854752-0B77-4DBA-8DD8-2EA7F2BB421C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -122,7 +125,7 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="swagProtector.vi" Type="VI" URL="../swagProtector.vi"/>
+			<Item Name="digitalIODump.vi" Type="VI" URL="../digitalIODump.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -714,11 +717,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CounterRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterRefNum Registry Set.vi"/>
 				<Item Name="WPI_DigitalInputRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputRefNum Registry Set.vi"/>
 				<Item Name="WPI_CompressorControlLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Compressor/WPI_CompressorControlLoop.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
