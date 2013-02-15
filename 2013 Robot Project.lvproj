@@ -9,6 +9,8 @@
 	<Property Name="varPersistentID:{EB052234-22FA-4B28-B13D-FDED85410D28}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
 	<Property Name="varPersistentID:{EBB72B29-D7EC-4A55-94A6-D585248A8C24}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
 	<Property Name="varPersistentID:{F6854752-0B77-4DBA-8DD8-2EA7F2BB421C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
+	<Property Name="varPersistentID:{5E050C69-0C9A-4A4E-8661-0957D89BC8B1}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intakePower</Property>
+	<Property Name="varPersistentID:{E3A3257B-1D70-4602-A4AF-25E757373D48}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intake</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -148,6 +150,22 @@ KeepAliveTimeout 60
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+			</Item>
+		</Item>
+		<Item Name="Autonomous" Type="Folder">
+			<Item Name="autoDestroyFunction.vi" Type="VI" URL="../autoDestroyFunction.vi"/>
+			<Item Name="autoGetIOData.vi" Type="VI" URL="../autoGetIOData.vi"/>
+			<Item Name="autoGetSetLabels.vi" Type="VI" URL="../autoGetSetLabels.vi"/>
+			<Item Name="autoMain.vi" Type="VI" URL="../autoMain.vi"/>
+			<Item Name="autoMaintainCurrentInstructions.vi" Type="VI" URL="../autoMaintainCurrentInstructions.vi"/>
+			<Item Name="autoMotionProfileGenerate.vi" Type="VI" URL="../autoMotionProfileGenerate.vi"/>
+			<Item Name="autoMotionProfileMain.vi" Type="VI" URL="../autoMotionProfileMain.vi"/>
+			<Item Name="autoRelativeToAbsolute.vi" Type="VI" URL="../autoRelativeToAbsolute.vi"/>
+			<Item Name="autoRemoveDeadFunctions.vi" Type="VI" URL="../autoRemoveDeadFunctions.vi"/>
+			<Item Name="autoSelectData.vi" Type="VI" URL="../autoSelectData.vi"/>
+			<Item Name="autoStartFunction.vi" Type="VI" URL="../autoStartFunction.vi"/>
+			<Item Name="autoUnpackFile.vi" Type="VI" URL="../autoUnpackFile.vi"/>
+		</Item>
 				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
 				<Item Name="FPGA_SystemAsynch VI Registration.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/System/FPGA_SystemAsynch VI Registration.vi"/>
 				<Item Name="WPI_CameraFrameRate.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraFrameRate.ctl"/>
@@ -720,14 +738,41 @@ KeepAliveTimeout 60
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of f086339... Changed values for the compressor relay
 			</Item>
+>>>>>>> parent of f086339... Changed values for the compressor relay
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<Item Name="WPI_EncoderConfigureTimer.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderConfigureTimer.vi"/>
+			<Item Name="WPI_MotorControlGetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlGetOutput.vi"/>
+			<Item Name="WPI_MotorControlScaleFromPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlScaleFromPWM.vi"/>
+			<Item Name="WPI_EncoderReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Encoder/WPI_EncoderReset.vi"/>
+			<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
+			<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+			<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+			<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+			<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+			<Item Name="driveCheesy.vi" Type="VI" URL="../driveCheesy.vi"/>
+			<Item Name="Ramping.vi" Type="VI" URL="../Ramping.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+=======
+=======
+>>>>>>> parent of f086339... Changed values for the compressor relay
 		</Item>
+>>>>>>> parent of f086339... Changed values for the compressor relay
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_INI_aliasGUID" Type="Str">{81CAB607-961A-4950-820F-14767FC45DA2}</Property>
