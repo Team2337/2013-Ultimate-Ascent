@@ -1,0 +1,11 @@
+#The purpose here is to just map out the drive distances
+testFunct(relative, t, 0, t, 5, firstShootingSequence)
+driveBasic(relative, label-end, firstShootingSequence, e, 1420, -.75, driveFirst)
+intakeRun(relative, label-end, firstShootingSequence, e, 1375, runIntake)
+testFunct(relative, label-end, driveFirst, t, .5, quickPause)
+driveBasic(relative, label-end, quickPause, e, -450, .5, backToPyramid)
+testFunct(relative, label-end, backToPyramid, t, 5, secondShootingSequence)
+testFunct(relative, label-end, driveFirst, t, 5, secondShootingSequence)
+intakeOff(relative, label-end, secondShootingSequence, t, 200, end)
+#driveBasic(relative, label-end, secondShootingSequence, e, y, .5, driveSecond) this is either to pyramid or DS
+

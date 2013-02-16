@@ -1,5 +1,26 @@
-2013UltimateAscent
-==================
+THis first line is a quick description for User Messages
 
-This branch hosts the autonomous code, which primarily (for now) consists of the 2012 FTP Autonomous, most of the game-specific code gutted out, and the VI's named to meet naming standards.
+Supported methods:
 
+#driveBasic(relative, start type, start param, end type, end param, driveSpeed, [label])
+#driveBasicOneSide(relative, start type, start param, end type, end param, driveSpeed, left/right, [label])
+#driveManual(relative, start type, start param, end type, end param, leftDriveSpeed, rightDriveSpeed, [label])
+#testFunct(relative, start type, start param, end type, end param, [label])
+#shifterSet(relative, start type, start param, "low"/"high")
+#intakeRun(relative, start type, start param, end type, end param, [label])
+#intakeOff(relative, start type, start param, end type, end param, [label])\
+#shooterSetRPM(relative, start type, start param, speed)
+#armSet(relative, start type, start param, potPosition)
+
+Methods in development:
+
+#driveBasicGyro(relative, start type, start param, end type, end param, driveSpeedSecondary, gyroAngle, left/right, [label])
+#driveVision(relative, start type, start param, end type, end param, "disc"/"target", driveSpeed, [label])
+#driveBasicMotionProfile(relative, start type, start param, end type, end param, distance, vprog, t1, t2, [label])
+#intakeSet(relative, start type, start param, up/down)
+
+Future methods:
+
+#intakeRun and intakeOff will also run the loading belts for the rest of the shooter
+#fireAll(relative, start type, start param, end type, end param, [label])
+#shooterFireOneSide(relative, start type, start param, end type, end param, left/right, [label])
