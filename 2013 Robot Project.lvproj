@@ -1,14 +1,22 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
+	<Property Name="varPersistentID:{39D57E24-DC2F-41D9-BC0A-100895C5997B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/climberHooks</Property>
+	<Property Name="varPersistentID:{52F1C1B5-D70A-4E56-BBB7-6AA940666CD2}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/feeder</Property>
 	<Property Name="varPersistentID:{5CD8567E-D08D-4C8C-AABC-4FF1D92F8A05}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveRight</Property>
+	<Property Name="varPersistentID:{62816DC5-F581-4239-8DEF-A88F4F1C9146}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootButton</Property>
+	<Property Name="varPersistentID:{62DF1530-A14C-4F22-AF7B-B44803705219}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterQueue</Property>
+	<Property Name="varPersistentID:{7703E22F-8F43-4BD5-AE7E-61262F1E10F4}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterMast</Property>
 	<Property Name="varPersistentID:{A1894E97-4956-48EC-99BA-F5FE94093963}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
 	<Property Name="varPersistentID:{A7AAC8C2-8351-4D78-ACED-6C2691570CFF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shifter</Property>
 	<Property Name="varPersistentID:{AB5690DF-0DC3-4718-A9A0-E7ED28809458}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterRPM</Property>
 	<Property Name="varPersistentID:{B5335968-BC58-42CC-84CA-4A59ECD57463}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBangBang</Property>
 	<Property Name="varPersistentID:{BE398721-A7D0-4C03-9F47-43EE27D94421}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoNumber</Property>
+	<Property Name="varPersistentID:{E7C8F95B-8FCC-41DC-9C99-D878539B7052}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/climberExtend</Property>
 	<Property Name="varPersistentID:{EB052234-22FA-4B28-B13D-FDED85410D28}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
 	<Property Name="varPersistentID:{EBB72B29-D7EC-4A55-94A6-D585248A8C24}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
 	<Property Name="varPersistentID:{F6854752-0B77-4DBA-8DD8-2EA7F2BB421C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
+	<Property Name="varPersistentID:{FC3BA975-00F0-447F-A53B-16E2452DE952}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterArm</Property>
+	<Property Name="varPersistentID:{FF3BE703-0B43-4C01-BFF0-8CDC781E95DD}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intake</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -721,12 +729,6 @@ KeepAliveTimeout 60
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
-				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
-				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
-				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
-				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -734,10 +736,6 @@ KeepAliveTimeout 60
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
