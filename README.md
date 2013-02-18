@@ -11,10 +11,10 @@ Supported methods:
 #intakeOff(relative, start type, start param, end type, end param, [label])\
 #shooterSetRPM(relative, start type, start param, speed)
 #armSet(relative, start type, start param, potPosition)
+#driveBasicGyro(relative, start type, start param, end type, end param, driveSpeedSecondary, gyroAngle, left/right, [label])
 
 Methods in development:
 
-#driveBasicGyro(relative, start type, start param, end type, end param, driveSpeedSecondary, gyroAngle, left/right, [label])
 #driveVision(relative, start type, start param, end type, end param, "disc"/"target", driveSpeed, [label])
 #driveBasicMotionProfile(relative, start type, start param, end type, end param, distance, vprog, t1, t2, [label])
 #intakeSet(relative, start type, start param, up/down)
