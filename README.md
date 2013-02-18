@@ -1,4 +1,8 @@
-THis first line is a quick description for User Messages
+#This first line is a quick description for User Messages. Limit of 20 chars.
+#The second line in the User Messages box reports the auton number.
+#The "CRACKED" WPI_Compressor file is to be used in Periodic Tasks; it looks for
+#	the "compressorEnable" internal variable, which has to be true for the compressor to turn on.
+#	It's for shutting off during auto if we're using the gyro, and it's named CRACKED because I'm juvenile.
 
 Supported methods:
 
@@ -8,7 +12,7 @@ Supported methods:
 #testFunct(relative, start type, start param, end type, end param, [label])
 #shifterSet(relative, start type, start param, "low"/"high")
 #intakeRun(relative, start type, start param, end type, end param, [label])
-#intakeOff(relative, start type, start param, end type, end param, [label])\
+#intakeOff(relative, start type, start param, end type, end param, [label])
 #shooterSetRPM(relative, start type, start param, speed)
 #armSet(relative, start type, start param, potPosition)
 #driveBasicGyro(relative, start type, start param, end type, end param, driveSpeedSecondary, gyroAngle, left/right, [label])
