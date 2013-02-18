@@ -21,7 +21,6 @@
 			<Item Name="Build Simple Skeleton Data.vi" Type="VI" URL="../Build Simple Skeleton Data.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="visionDisc.vi" Type="VI" URL="../visionDisc.vi"/>
-			<Item Name="visionTargetFullScripts.vi" Type="VI" URL="../visionTargetFullScripts.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="DStoPCPacketTypeDef.ctl" Type="VI" URL="../DStoPCPacketTypeDef.ctl"/>
