@@ -1,0 +1,9 @@
+#The purpose here is to just map out the drive distances
+#testFunct(relative, t, 0, t, 5, firstShootingSequence)
+driveBasicGyro(relative, t, 0, g, 175, 0, 215, right, driveTurn)
+driveBasic(relative, label-end, driveTurn, t, 0.5, 0, stop)
+driveBasic(relative, label-end, stop, e, -650, -0.75, getThoseDiscs)
+testFunct(relative, label-end, getThoseDiscs, t, 0.20, hammerTime)
+driveBasic(relative, label-end, hammerTime, e, 25, 0.5, backThatUp)
+driveBasicGyro(relative, label-end, backThatUp, g, 155, 0.1, 380, right, backToTheBoard)
+driveBasic(relative, label-end, backToTheBoard, e, 500, 0, facingTheBoard)
