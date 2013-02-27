@@ -164,6 +164,7 @@
 			<Item Name="Get All Users Directory.vi" Type="VI" URL="../Get All Users Directory.vi"/>
 			<Item Name="FPS Calculator.vi" Type="VI" URL="../FPS Calculator.vi"/>
 			<Item Name="visionTarget.vi" Type="VI" URL="../visionTarget.vi"/>
+			<Item Name="Distance Formula.vi" Type="VI" URL="//10.23.37.7/Enginerds Shared/Students/Brumwell Silas/Run Away Folder/Distance Formula.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
