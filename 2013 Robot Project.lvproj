@@ -1,27 +1,26 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
-	<Property Name="varPersistentID:{05BA98D9-EF20-4376-89E4-4F666F9107F6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterQueue</Property>
+	<Property Name="varPersistentID:{05BA98D9-EF20-4376-89E4-4F666F9107F6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterQueue</Property>
 	<Property Name="varPersistentID:{136368D2-1984-4B29-BC6D-5CDFFCEF8639}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/climberExtend</Property>
 	<Property Name="varPersistentID:{181C55DC-A34C-46D0-B9D0-6956738EDA6D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intakePower</Property>
 	<Property Name="varPersistentID:{1841950D-CB52-4E04-B13F-9DD275C67E14}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intake</Property>
-	<Property Name="varPersistentID:{1AF03833-0C3E-4825-88AD-3D46B36B7522}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootPID</Property>
+	<Property Name="varPersistentID:{1AF03833-0C3E-4825-88AD-3D46B36B7522}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootPID</Property>
 	<Property Name="varPersistentID:{2778E160-42E8-4DA7-8C26-13F442FA8F9F}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPosition</Property>
-	<Property Name="varPersistentID:{27A30EE2-C602-45D3-8266-E7BB2A692955}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterRPM</Property>
+	<Property Name="varPersistentID:{27A30EE2-C602-45D3-8266-E7BB2A692955}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterRPM</Property>
 	<Property Name="varPersistentID:{2D787DDC-8FCF-430D-97A7-5AE32E8BA0B1}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shifter</Property>
 	<Property Name="varPersistentID:{6B64FCFC-0284-4AE3-A024-0FF1FCC6330C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
-	<Property Name="varPersistentID:{73CA08C1-1FE9-49AC-9D7B-49D8439F1904}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterArm</Property>
-	<Property Name="varPersistentID:{8176D587-57FC-4832-B4DE-1A2CA59D0ACB}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootDirectInput</Property>
-	<Property Name="varPersistentID:{84472E61-D4C0-4016-8779-B2914B285ABA}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterMast</Property>
-	<Property Name="varPersistentID:{85CB0B16-E531-48D4-9C0A-779E896BA484}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootButton</Property>
-	<Property Name="varPersistentID:{8723B7B5-CB03-47E5-BCDC-643F896E4458}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intakePosition</Property>
+	<Property Name="varPersistentID:{73CA08C1-1FE9-49AC-9D7B-49D8439F1904}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPower</Property>
+	<Property Name="varPersistentID:{7732F851-B411-4682-8449-A842DA9F65EA}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterMachineGunMode</Property>
+	<Property Name="varPersistentID:{78F557AF-062D-47F3-9398-BCA2602C422B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterShotgunMode</Property>
+	<Property Name="varPersistentID:{8176D587-57FC-4832-B4DE-1A2CA59D0ACB}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootDirectInput</Property>
+	<Property Name="varPersistentID:{85CB0B16-E531-48D4-9C0A-779E896BA484}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootButton</Property>
 	<Property Name="varPersistentID:{908AC6B8-0E91-4572-B105-8F6DB6708F33}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveRight</Property>
-	<Property Name="varPersistentID:{BECA4A6B-8121-4EB0-AB3A-8FFB9EF9BEF6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBangBang</Property>
-	<Property Name="varPersistentID:{D05C6659-69CD-4EF1-829C-748C256678FF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBumperBottom</Property>
-	<Property Name="varPersistentID:{D9F56F48-54B4-4508-822E-55E9F1871076}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBumperBoth</Property>
+	<Property Name="varPersistentID:{BECA4A6B-8121-4EB0-AB3A-8FFB9EF9BEF6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBangBang</Property>
+	<Property Name="varPersistentID:{D05C6659-69CD-4EF1-829C-748C256678FF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBumperBottom</Property>
+	<Property Name="varPersistentID:{D9F56F48-54B4-4508-822E-55E9F1871076}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBumperBoth</Property>
 	<Property Name="varPersistentID:{DC456F58-E25B-4896-8B1B-5A129098B49E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/feeder</Property>
-	<Property Name="varPersistentID:{E4F24042-B8A2-4259-B1F3-A5B81BEE1D71}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shootBumperTop</Property>
+	<Property Name="varPersistentID:{E4F24042-B8A2-4259-B1F3-A5B81BEE1D71}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBumperTop</Property>
 	<Property Name="varPersistentID:{E91A4DF8-C129-445B-B226-CA1A8F6F18EA}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
-	<Property Name="varPersistentID:{EB4A43AF-6C90-4C38-B8A9-6FF30BBE0FFD}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/climberHooks</Property>
 	<Property Name="varPersistentID:{F5119CD8-5B85-4C8D-A321-B6740C30BF53}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoNumber</Property>
 	<Property Name="varPersistentID:{FF3BE703-0B43-4C01-BFF0-8CDC781E95DD}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intake</Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -155,27 +154,30 @@
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="digitalIODump.vi" Type="VI" URL="../digitalIODump.vi"/>
-			<Item Name="PotRounding.vi" Type="VI" URL="../PotRounding.vi"/>
+			<Item Name="pidGrapher.vi" Type="VI" URL="../pidGrapher.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="armControl.vi" Type="VI" URL="../armControl.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="driveCheesy.vi" Type="VI" URL="../driveCheesy.vi"/>
-			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
-			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+			<Item Name="PotRounding.vi" Type="VI" URL="../PotRounding.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="shooterBangBang.vi" Type="VI" URL="../shooterBangBang.vi"/>
+			<Item Name="shooterPID.vi" Type="VI" URL="../shooterPID.vi"/>
+			<Item Name="shooterReleaseControl.vi" Type="VI" URL="../shooterReleaseControl.vi"/>
+			<Item Name="SmartDashboardInsidePeriodicTasks.vi" Type="VI" URL="../SmartDashboardInsidePeriodicTasks.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="visionDisc.vi" Type="VI" URL="../visionDisc.vi"/>
+			<Item Name="VisionRobotWrapper.vi" Type="VI" URL="../VisionRobotWrapper.vi"/>
 			<Item Name="visionTarget.vi" Type="VI" URL="../visionTarget.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="internalVariables.lvlib" Type="Library" URL="../internalVariables.lvlib"/>
-		<Item Name="shooterPID.vi" Type="VI" URL="../shooterPID.vi"/>
-		<Item Name="shooterBangBang.vi" Type="VI" URL="../shooterBangBang.vi"/>
-		<Item Name="shooterReleaseControl.vi" Type="VI" URL="../shooterReleaseControl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -283,7 +285,6 @@
 				<Item Name="WPI_RobotDriveRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Read Name.vi"/>
 				<Item Name="WPI_RobotDriveGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetSetRefNum.vi"/>
 				<Item Name="WPI_MotorControlDisable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisable.vi"/>
-				<Item Name="WPI_RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotorSelectorEnum.ctl"/>
 				<Item Name="WPI_MotorControlGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlGetSetRefNum.vi"/>
 				<Item Name="WPI_MotorControlRefNum Compare.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Compare.vi"/>
 				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
@@ -341,8 +342,6 @@
 				<Item Name="WPI_JoystickScaleTo100PlusMinRange.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickScaleTo100PlusMinRange.vi"/>
 				<Item Name="WPI_DriverStationReport Robot Code State.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationReport Robot Code State.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Get.vi"/>
-				<Item Name="WPI_RobotDriveMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotors.vi"/>
-				<Item Name="WPI_RobotDriveGetMotorControlReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetMotorControlReference.vi"/>
 				<Item Name="WPI_MotorControlSetOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSetOutput.vi"/>
 				<Item Name="WPI_MotorControlSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyUpdate.vi"/>
 				<Item Name="WPI_MotorControlSafetyCheck.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlSafetyCheck.vi"/>
@@ -351,9 +350,6 @@
 				<Item Name="WPI_MotorControlRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlRefNum Registry Read Name.vi"/>
 				<Item Name="WPI_MotorControlScaleToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlScaleToPWM.vi"/>
 				<Item Name="WPI_PWMGetRangeScaleFactors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/WPI_PWMGetRangeScaleFactors.vi"/>
-				<Item Name="WPI_CANJaguar_UpdateSyncGroup.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/WPI_CANJaguar_UpdateSyncGroup.vi"/>
-				<Item Name="WPI_RobotDriveSafetyUpdate.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveSafetyUpdate.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_Standard(NoSaturation).vi"/>
 				<Item Name="WPI_CameraRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraRefNum Registry Get.vi"/>
 				<Item Name="WPI_CameraGet Image.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraGet Image.vi"/>
 				<Item Name="WPI_CameraWait for Raw Image String.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Camera/WPI_CameraWait for Raw Image String.vi"/>
@@ -726,13 +722,6 @@
 				<Item Name="FPGA_AnalogTriggerDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/AnalogTrigger/FPGA_AnalogTriggerDevRef.ctl"/>
 				<Item Name="WPI_CounterAnalogTriggerToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterAnalogTriggerToDigitalSource.vi"/>
 				<Item Name="WPI_CounterToDigitalSource.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Counter/WPI_CounterToDigitalSource.vi"/>
-				<Item Name="WPI_DriverStationGet Analog Input.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Analog Input.vi"/>
-				<Item Name="WPI_DriverStationGet Digital Input.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Digital Input.vi"/>
-				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_ButtonSpin.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_ButtonSpin.vi"/>
-				<Item Name="WPI_RobotDriveArcadeDrive_RatioCurve.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveArcadeDrive_RatioCurve.vi"/>
-				<Item Name="WPI_RobotDriveDelayAndUpdateSafety.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDelayAndUpdateSafety.vi"/>
 				<Item Name="SD Write Boolean Array.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Boolean Array.vi"/>
 				<Item Name="WPI_DriverStationLCDWrite User Message.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDWrite User Message.vi"/>
 				<Item Name="WPI_DriverStationLCDLCDLine.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/DriverStationLCD/WPI_DriverStationLCDLCDLine.ctl"/>
@@ -822,17 +811,14 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SmartDashboardInsidePeriodicTasks.vi" Type="VI" URL="../SmartDashboardInsidePeriodicTasks.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="armControl.vi" Type="VI" URL="../armControl.vi"/>
-			<Item Name="pidGrapher.vi" Type="VI" URL="../pidGrapher.vi"/>
-			<Item Name="VisionRobotWrapper.vi" Type="VI" URL="../VisionRobotWrapper.vi"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
