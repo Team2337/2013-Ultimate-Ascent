@@ -1,0 +1,5 @@
+shooterSetRPM(relative, t, 0, 4500)
+armBasic(absolute, t, 0, ap, shootingPosition, 0.75, moveArmIntoPosition)
+testFunct(relative, label-end, moveArmIntoPosition, t, 0.25, waitForShooterAndArm)
+shooterFire(relative, label-end, waitForShooterAndArm, t, 5, both, machinegun, fireThemAll)
+shooterSetRPM(relative, label-end, fireThemAll, 0)
