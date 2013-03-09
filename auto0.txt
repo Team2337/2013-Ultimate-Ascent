@@ -1,13 +1,13 @@
-#The purpose here is to just map out the drive distances
-#testFunct(relative, t, 0, t, 5, firstShootingSequence)
-#testFunct(relative, t, 0, t, 5, firstShootingSequence)
-#driveBasic(relative, label-end, firstShootingSequence, e, -1500, -.75, driveFirst)
-driveBasic(relative, t, 0, e, -1500, -.75, driveFirst)
-intakeRun(relative, label-end, firstShootingSequence, label-end, quickPause, runIntake)
-testFunct(relative, label-end, driveFirst, t, .5, quickPause)
-driveBasic(relative, label-end, quickPause, e, 350, .5, backToPyramid)
-testFunct(relative, label-end, backToPyramid, t, 5, secondShootingSequence)
-testFunct(relative, label-end, driveFirst, t, 5, secondShootingSequence)
-intakeOff(relative, label-end, secondShootingSequence, t, 200, end)
-#driveBasic(relative, label-end, secondShootingSequence, e, y, .5, driveSecond) this is either to pyramid or DS
+testFunct(relative, t, 0, t, 0.1, startTheChain)
+shooterSetRPM(relative, label-end, startTheChain, 4620)
+#armBasic(relative, label-end, startTheChain, ap, 1.94, -1, moveArmIntoPosition)
+armBasic(relative, label-end, startTheChain, ap, 1.88, -1, moveArmIntoPosition)
+armBasic(relative, label-end, moveArmIntoPosition, t, 1, 0, stopArm)
+testFunct(relative, label-end, moveArmIntoPosition, t, 1, waitForShooterAndArm)
+shooterFire(relative, label-end, waitForShooterAndArm, t, 15, both, machinegun, 0.9, fireThemAll)
+#set up a slower queueing constant in the command on the previous line          ^^^
+#shooterSetRPM(relative, label-end, fireThemAll, 0)
+#shooterStopFire(relative, label-end, fireThemAll, t, 20)
 
+##1.92, try 1.94 for two-point goal
+#actual 1.96, try 2
