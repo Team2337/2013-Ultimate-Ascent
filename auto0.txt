@@ -1,6 +1,6 @@
 testFunct(relative, t, 0, t, 0.1, startTheChain)
 shooterSetRPM(relative, label-end, startTheChain, 4620)
-#armBasic(relative, label-end, startTheChain, ap, 1.94, -1, moveArmIntoPosition)
+#armBasic(relative, label-end, startTheChain, ap, 1.94, -1, moveArmIntoPosition) this is the 3-point goal
 armBasic(relative, label-end, startTheChain, ap, 1.88, -1, moveArmIntoPosition)
 armBasic(relative, label-end, moveArmIntoPosition, t, 1, 0, stopArm)
 testFunct(relative, label-end, moveArmIntoPosition, t, 1, waitForShooterAndArm)
