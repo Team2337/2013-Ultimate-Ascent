@@ -14,6 +14,24 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="armFeeder" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="armGround" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="armIntegral" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -32,15 +50,6 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
-		<Item Name="armThreeFeeder" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
 		<Item Name="armThreePyramidFront" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -51,15 +60,6 @@
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="armThreePyramidRear" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Global</Property>
-			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">False</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="type" Type="Str">Global</Property>
-			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-		<Item Name="armTwoFeeder" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -185,6 +185,15 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="shooterRPMTeleop" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 	</Item>
 	<Item Name="refnums" Type="Folder">
 		<Item Name="analogArmPot" Type="Variable">
@@ -251,6 +260,15 @@
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!")!A!1!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 		</Item>
 		<Item Name="joystickDriverXboxUSB1" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!")!A!1!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
+		<Item Name="joystickOperatorGamepadUSB2" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 			<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -466,6 +484,15 @@
 			<Property Name="type" Type="Str">Global</Property>
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!")!A!1!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
+		<Item Name="shooterOn" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!")!A!1!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="shooterRPM" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -504,6 +531,15 @@
 			<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!")!A!1!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 		</Item>
 	</Item>
+	<Item Name="armHeightState" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!")!A!1!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="armPosition" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -531,6 +567,15 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!")!A!1!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="autoTimeDelay" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Global</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Global</Property>
+		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="autoTimeDelay" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
@@ -616,15 +661,6 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!V-1!!!")!A!1!!!!"!"]!&amp;A!%"GVB&lt;H6B&lt;!6T;'^P&gt;!2G:76E"'2V&lt;8!!!!!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="autoTimeDelay" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!")!A!1!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="shifter" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
