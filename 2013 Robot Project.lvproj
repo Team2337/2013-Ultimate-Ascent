@@ -1,11 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="12008004">
 	<Property Name="varPersistentID:{05BA98D9-EF20-4376-89E4-4F666F9107F6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterQueue</Property>
+	<Property Name="varPersistentID:{06A51E12-3C91-4AF9-889E-A9B1B2CF7593}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightVisionDerivative</Property>
 	<Property Name="varPersistentID:{077BCFA0-15A1-4581-8B88-79F3B17B58E8}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorDriveLeftPractice</Property>
 	<Property Name="varPersistentID:{07C79D66-2E27-497D-92BF-CE20648BEE65}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/cheesyQuickHigh</Property>
 	<Property Name="varPersistentID:{096D266C-E26C-429A-A198-180E8032D6CB}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/driveStraightConstant</Property>
 	<Property Name="varPersistentID:{09D21096-DD8F-4AEB-979F-29062F3C2160}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/solenoidShooterReleaseTop</Property>
 	<Property Name="varPersistentID:{0AD7C118-8E04-4859-9A22-11248581D6D2}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armGround</Property>
+	<Property Name="varPersistentID:{0CFE6070-FCAD-43FE-97FF-CB04C0B431C9}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armShooterOnDeadband</Property>
+	<Property Name="varPersistentID:{0DF20ED7-D672-4408-A4E0-AB0DBC277A1A}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/visionTargetDistance</Property>
 	<Property Name="varPersistentID:{120CFE3C-2B4E-486E-BA8D-181757D4B15B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armFeeder</Property>
 	<Property Name="varPersistentID:{12185B0A-9F5D-4892-B9B2-CFE3CCDD7863}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPID</Property>
 	<Property Name="varPersistentID:{12BC77BE-0BDB-4D18-943F-266D2A63398C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armTwoPyramidFront</Property>
@@ -15,6 +18,7 @@
 	<Property Name="varPersistentID:{18B56944-7DBB-44B6-B5F3-DF59C1B5CC91}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/cheesySpeedLow</Property>
 	<Property Name="varPersistentID:{1AF03833-0C3E-4825-88AD-3D46B36B7522}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootPID</Property>
 	<Property Name="varPersistentID:{2585C706-70AA-489B-8EA0-1B409677C934}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/setpoints</Property>
+	<Property Name="varPersistentID:{2692D5A3-9BB4-49D7-8851-02D43D6747BF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightVisionProportion</Property>
 	<Property Name="varPersistentID:{26AE1F7B-976D-465A-B3A4-D4FFE60E3A6D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/ShootMethod</Property>
 	<Property Name="varPersistentID:{2778E160-42E8-4DA7-8C26-13F442FA8F9F}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPosition</Property>
 	<Property Name="varPersistentID:{27A30EE2-C602-45D3-8266-E7BB2A692955}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterRPM</Property>
@@ -25,15 +29,20 @@
 	<Property Name="varPersistentID:{3D55F2BD-BC6D-45BD-ABD7-289C2C8BDC89}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/joystickOperatorGamepadUSB2</Property>
 	<Property Name="varPersistentID:{3FC997F1-CCDC-4A65-ABAC-5425B68491C1}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/solenoidClimb</Property>
 	<Property Name="varPersistentID:{418FFA9C-E002-4F82-89E7-A915C5CE9108}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterRPMTeleop</Property>
+	<Property Name="varPersistentID:{48E8BDFB-DA56-4379-BD6A-8C9032351635}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterQueueFeedingSpeed</Property>
 	<Property Name="varPersistentID:{48EBAC40-4646-4B40-A83E-341D45E4CA1B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/solenoidShooterReleaseBottom</Property>
 	<Property Name="varPersistentID:{4AE6C973-51EA-4333-835E-79AF480BA718}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorArm</Property>
 	<Property Name="varPersistentID:{520EC2C9-53D1-45D7-B82B-685B61E38CFA}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorShooterRev</Property>
 	<Property Name="varPersistentID:{56C413E6-26B0-4067-AB88-4F0718D64CE8}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/joystickOperatorZachBoxUSB2</Property>
 	<Property Name="varPersistentID:{5E102C26-853C-40E7-B63A-8E4CBFBD154D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterIntegral</Property>
 	<Property Name="varPersistentID:{60DFDC65-2903-47FA-905D-430C2EA78B3C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armThreePyramidFront</Property>
+	<Property Name="varPersistentID:{630E12A5-A143-450A-B000-BFA37DAEB46C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightGyroIntegral</Property>
 	<Property Name="varPersistentID:{63684457-F84F-45D3-B290-93267A03AF69}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/encoderDriveLeft</Property>
+	<Property Name="varPersistentID:{64818282-5913-4DF0-AF56-C2FF422056C7}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/visionPixelsHorizontalOff</Property>
 	<Property Name="varPersistentID:{6718849B-0205-4175-B043-2E29A64C5162}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armIntegralCap</Property>
+	<Property Name="varPersistentID:{69317B28-DF0E-4D8C-AEA8-7F5CF71A0D96}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightVisionIntegral</Property>
 	<Property Name="varPersistentID:{6B64FCFC-0284-4AE3-A024-0FF1FCC6330C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/autoTimeDelay</Property>
+	<Property Name="varPersistentID:{719FF39A-5A6D-40B4-943D-C70803B66F49}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterFiringDrop</Property>
 	<Property Name="varPersistentID:{73CA08C1-1FE9-49AC-9D7B-49D8439F1904}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPower</Property>
 	<Property Name="varPersistentID:{74A32F22-C20B-4871-888A-B6BDD5ACD385}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armProportionUp</Property>
 	<Property Name="varPersistentID:{76478D18-7625-4F51-AFC2-2FC6E8BE8418}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterProportion</Property>
@@ -45,22 +54,29 @@
 	<Property Name="varPersistentID:{85CB0B16-E531-48D4-9C0A-779E896BA484}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootButton</Property>
 	<Property Name="varPersistentID:{87D5FA94-1D97-4EF2-B753-5668EBAAC310}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/compressor</Property>
 	<Property Name="varPersistentID:{890F1388-D2C8-4CA2-8250-90D8E18FD60E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shooterOn</Property>
+	<Property Name="varPersistentID:{89910050-9C1A-4D88-8BB4-A2139091289F}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightGyroProportion</Property>
 	<Property Name="varPersistentID:{8C0C3884-D38E-4241-95F6-758237BB602B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorShooterQueue</Property>
+	<Property Name="varPersistentID:{9045054E-8BA5-40EE-B874-8C6E784343D0}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightGyroDerivative</Property>
 	<Property Name="varPersistentID:{908AC6B8-0E91-4572-B105-8F6DB6708F33}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveRight</Property>
 	<Property Name="varPersistentID:{97272C7D-868B-48B1-AE11-76A6F1470A60}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armIntegralUp</Property>
+	<Property Name="varPersistentID:{97F3107A-8F5F-4746-9A25-A02BA62734FD}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armLimitLower</Property>
 	<Property Name="varPersistentID:{998F8673-5A1C-456F-A297-2D7227298CBF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/gyroTurnDerivative</Property>
 	<Property Name="varPersistentID:{9E512F5B-64FF-4C20-A6EB-847103F0607E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorDriveLeft</Property>
 	<Property Name="varPersistentID:{9E7E2659-BE89-42B6-8E70-B84894CD23E3}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorIntake</Property>
 	<Property Name="varPersistentID:{A05ABFF2-D7AE-431D-9ADA-FE28CD6E890E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/cheesySpeedHigh</Property>
 	<Property Name="varPersistentID:{A0865475-3972-4953-A805-0059C440A58C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/encoderDriveRight</Property>
+	<Property Name="varPersistentID:{A38A99EE-077C-4CD8-AF49-98B770C319D1}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterReleaseTiming</Property>
 	<Property Name="varPersistentID:{AB2B3BFA-FA20-45D4-BA04-C91A6DDB6F63}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorShooterFwd</Property>
+	<Property Name="varPersistentID:{AED5C0CD-464E-4E82-A2E8-E8B540A4241D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armLimitUpper</Property>
 	<Property Name="varPersistentID:{B278E707-717D-496F-AACB-4E0B736EA3E9}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armIntegralDown</Property>
 	<Property Name="varPersistentID:{B3C2CFEC-D9C5-4CDA-8FD8-E4B704ABF93B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/joystickOperatorNunchukUSB3</Property>
 	<Property Name="varPersistentID:{BECA4A6B-8121-4EB0-AB3A-8FFB9EF9BEF6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBangBang</Property>
+	<Property Name="varPersistentID:{C2742CFC-49E1-434D-9F6E-E20E8D5DE465}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterBangBangFloor</Property>
 	<Property Name="varPersistentID:{C8057EDF-8958-470A-BDB9-F271526DAC7C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/analogArmPot</Property>
 	<Property Name="varPersistentID:{CDA2F49D-A2B6-4B21-9225-4A0A4FF67A9A}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/gyroTurnIntegral</Property>
 	<Property Name="varPersistentID:{D05C6659-69CD-4EF1-829C-748C256678FF}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBumperBottom</Property>
 	<Property Name="varPersistentID:{D44AB7F6-26D8-4594-A14C-BC79B37D8BB4}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/counterShooter</Property>
+	<Property Name="varPersistentID:{D5BCA959-4D38-4BF7-84EA-2BF9C8E2B537}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterBangBangCeiling</Property>
 	<Property Name="varPersistentID:{D5FE8D96-622E-4A63-AA63-C9A8A85B5C42}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armTwoPyramidRear</Property>
 	<Property Name="varPersistentID:{D7544936-10E7-407D-A2FA-C6C1DC98D3D7}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armHeightState</Property>
 	<Property Name="varPersistentID:{D88F07A2-8A65-4C4D-A9D3-8F225545495B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/camera</Property>
@@ -69,6 +85,7 @@
 	<Property Name="varPersistentID:{DC456F58-E25B-4896-8B1B-5A129098B49E}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/feeder</Property>
 	<Property Name="varPersistentID:{DFECD5E7-0CB6-462D-87B1-F1F9D3B9CBE0}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorFeederBelt</Property>
 	<Property Name="varPersistentID:{E0383DF4-6B9A-4B12-9615-BDC3BB77D7A2}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/joystickDriverXboxUSB1</Property>
+	<Property Name="varPersistentID:{E3C77E01-7019-4DF1-BA0B-549A09CB8C96}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/visionPixelsVerticalOff</Property>
 	<Property Name="varPersistentID:{E4F24042-B8A2-4259-B1F3-A5B81BEE1D71}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBumperTop</Property>
 	<Property Name="varPersistentID:{E91A4DF8-C129-445B-B226-CA1A8F6F18EA}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/driveLeft</Property>
 	<Property Name="varPersistentID:{E9ACE2CF-B8F5-44E4-84AC-A4AB0CE79F07}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/analogGyro</Property>
@@ -215,6 +232,8 @@
 			<Item Name="configFileParser.vi" Type="VI" URL="../configFileParser.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="PalardyGainSchedule.vi" Type="VI" URL="../PalardyGainSchedule.vi"/>
+			<Item Name="PalardyPI.vi" Type="VI" URL="../PalardyPI.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="PotRounding.vi" Type="VI" URL="../PotRounding.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
@@ -232,8 +251,6 @@
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="internalVariables.lvlib" Type="Library" URL="../internalVariables.lvlib"/>
-		<Item Name="PalardyPI.vi" Type="VI" URL="../PalardyPI.vi"/>
-		<Item Name="PalardyGainSchedule.vi" Type="VI" URL="../PalardyGainSchedule.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -802,7 +819,6 @@
 				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="WPI_JoystickGetRawValue.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGetRawValue.vi"/>
-				<Item Name="SD Write Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Write Number.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Particle Parameters" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Particle Parameters"/>
 				<Item Name="IVA Store Particles Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Particles Results.vi"/>
@@ -826,7 +842,6 @@
 				<Item Name="WPI_GyroOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroOpen.vi"/>
 				<Item Name="WPI_GyroRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroRefNum Registry Set.vi"/>
 				<Item Name="WPI_AnalogChannelRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/AnalogChannel/WPI_AnalogChannelRefNum Registry Set.vi"/>
-				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="WPI_GyroClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroClose.vi"/>
 				<Item Name="WPI_RelayRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Relay/WPI_RelayRefNum Registry Set.vi"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -835,27 +850,48 @@
 				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
 				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
-				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
+				<Item Name="WPI_GyroReset.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroReset.vi"/>
+				<Item Name="SD Read Number.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/SD Read Number.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -870,6 +906,7 @@
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
