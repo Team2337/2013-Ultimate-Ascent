@@ -1,7 +1,11 @@
 #3 disc back pyramid
 testFunct(relative, t, 0, t, 0.25, startTheChain)
 shooterSetRPM(relative, t, 0, 3500)
-armPosition(relative, label-end, startTheChain, ap, 3.0, 3, moveArmIntoPosition)
+armBasic(relative, label-end, startTheChain, ap, 2.96, -1, moveArmIntoPosition)
+
+armBasic(relative, label-end, moveArmIntoPosition, t, 0.25, 0, doneWithArm)
 testFunct(relative, label-end, moveArmIntoPosition, t, 0.25, waitForShooterAndArm)
+
 shooterFire(relative, label-end, waitForShooterAndArm, t, 5, both, machinegun, fireThemAll)
+
 shooterSetRPM(relative, label-end, fireThemAll, 0)

@@ -1,0 +1,12 @@
+#shootingTestInSequence
+shooterSetRPM(relative, label-end, armDone)
+testFunct(relative, label-end, armDone, t, 1.25, shooterUpToRPM)
+shooterFire(relative, label-end, shooterUpToRPM, t, 0.5, shotgun, top, topOne)
+shooterStopFire(relative, label-end, topOne, t, 0.05, topOneStop)
+shooterFire(relative, label-end, topOnestop, t, 0.5, shotgun, bottom, bottomOne)
+shooterStopFire(relative, label-end, bottomOne, t, 0.05, bottomOneStop)
+shooterFire(relative, label-end, bottomOneStop, t, 0.5, shotgun, top, topTwo)
+shooterStopFire(relative, label-end, topTwo, t, 0.05, topTwoStop)
+shooterFire(relative, label-end, topTwoStop, t, 0.5, shotgun, bottom, bottomTwo)
+shooterStopFire(relative, label-end, bottomTwo, t, 0.05, bottomTwoStop)
+armPosition(relative, label-end, bottomTwoStop, ap, 1.55, 1.4, downToGround)

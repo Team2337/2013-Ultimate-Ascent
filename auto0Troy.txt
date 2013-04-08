@@ -1,15 +1,15 @@
-#RED good 7
+#BLUE good 7
 testFunct(relative, t, 0, t, 0.1, startTheChain)
-shooterSetRPM(relative, label-end, startTheChain, 3500)
+shooterSetRPM(relative, label-end, startTheChain, 2800)
 driveBasic(relative, label-end, startTheChain, e, -125, .5, startMovingBackward)
 testFunct(relative, label-end, startTheChain, t, 0.5, waitForRobotToMove)
 #armBasic(relative, label-end, startTheChain, ap, 1.96, -1, moveArmIntoPosition) this is the 3-point goal, old pot
-armBasic(relative, label-end, waitForRobotToMove, ap, 2.96, -1, moveArmIntoPosition)
+armBasic(relative, label-end, waitForRobotToMove, ap, 3.34, -1, moveArmIntoPosition)
 armBasic(relative, label-end, moveArmIntoPosition, t, 0.5, 0, stopArm)
 shooterFire(relative, label-end, stopArm, t, 2, both, machinegun, 0.9, fireThemAll)
 shooterSetRPM(relative, label-end, fireThemAll, 0)
 #armBasic(relative, label-end, fireThemAll, ap, 0.66, -1, moveArmDownForDiscs)
-armBasic(relative, label-end, fireThemAll, ap, 1.52, -1, moveArmDownForDiscs)
+armBasic(relative, label-end, fireThemAll, ap, 1.52, -.75, moveArmDownForDiscs)
 shooterStopFire(relative, label-end, moveArmDownForDiscs, t, 0.1, stopFiring)
 driveBasic(relative, label-end, moveArmDownForDiscs, e, 1500, -.7, throughPyramid)
 driveBasic(relative, label-end, throughPyramid, e, 300, -.25, endThroughPyramid)
