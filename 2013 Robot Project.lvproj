@@ -3,6 +3,7 @@
 	<Property Name="varPersistentID:{05BA98D9-EF20-4376-89E4-4F666F9107F6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooterQueue</Property>
 	<Property Name="varPersistentID:{06A51E12-3C91-4AF9-889E-A9B1B2CF7593}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/straightVisionDerivative</Property>
 	<Property Name="varPersistentID:{077BCFA0-15A1-4581-8B88-79F3B17B58E8}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/motorDriveLeftPractice</Property>
+	<Property Name="varPersistentID:{07A0769B-3810-410E-9FC8-8650650F8B99}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armDerivativeDown</Property>
 	<Property Name="varPersistentID:{07C79D66-2E27-497D-92BF-CE20648BEE65}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/cheesyQuickHigh</Property>
 	<Property Name="varPersistentID:{096D266C-E26C-429A-A198-180E8032D6CB}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/driveStraightConstant</Property>
 	<Property Name="varPersistentID:{09D21096-DD8F-4AEB-979F-29062F3C2160}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/solenoidShooterReleaseTop</Property>
@@ -14,6 +15,7 @@
 	<Property Name="varPersistentID:{12185B0A-9F5D-4892-B9B2-CFE3CCDD7863}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/armPID</Property>
 	<Property Name="varPersistentID:{12BC77BE-0BDB-4D18-943F-266D2A63398C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armThreePyramidFront</Property>
 	<Property Name="varPersistentID:{136368D2-1984-4B29-BC6D-5CDFFCEF8639}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/climberExtend</Property>
+	<Property Name="varPersistentID:{17047A39-87FE-4AA3-9393-F04FE23BB090}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armDerivativeUp</Property>
 	<Property Name="varPersistentID:{181C55DC-A34C-46D0-B9D0-6956738EDA6D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intakePower</Property>
 	<Property Name="varPersistentID:{1841950D-CB52-4E04-B13F-9DD275C67E14}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/intake</Property>
 	<Property Name="varPersistentID:{18B56944-7DBB-44B6-B5F3-DF59C1B5CC91}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/cheesySpeedLow</Property>
