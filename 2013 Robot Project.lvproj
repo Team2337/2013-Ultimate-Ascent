@@ -79,6 +79,7 @@
 	<Property Name="varPersistentID:{AED5C0CD-464E-4E82-A2E8-E8B540A4241D}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armLimitUpper</Property>
 	<Property Name="varPersistentID:{B278E707-717D-496F-AACB-4E0B736EA3E9}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/armIntegralDown</Property>
 	<Property Name="varPersistentID:{B3C2CFEC-D9C5-4CDA-8FD8-E4B704ABF93B}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/joystickOperatorNunchukUSB3</Property>
+	<Property Name="varPersistentID:{BE91922A-216A-41FB-91E4-B29AAABC1280}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/Compressor 2</Property>
 	<Property Name="varPersistentID:{BECA4A6B-8121-4EB0-AB3A-8FFB9EF9BEF6}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/shooter/shootBangBang</Property>
 	<Property Name="varPersistentID:{C2742CFC-49E1-434D-9F6E-E20E8D5DE465}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/config/shooterBangBangFloor</Property>
 	<Property Name="varPersistentID:{C8057EDF-8958-470A-BDB9-F271526DAC7C}" Type="Ref">/RT CompactRIO Target/internalVariables.lvlib/refnums/analogArmPot</Property>
@@ -863,6 +864,9 @@
 				<Item Name="WPI_DriverStationGet Alliance Info.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Alliance Info.vi"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
+				<Item Name="GetNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/GetNamedSemaphorePrefix.vi"/>
+				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 			</Item>
